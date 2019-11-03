@@ -27,7 +27,7 @@ In order to use this compose file (docker-compose.yml) you must have:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion.git
+git clone https://github.com/mealies/docker-compose-letsencrypt-nginx-proxy-companion
 ```
 
 2. Make a copy of our `.env.sample` and rename it to `.env`:
@@ -240,11 +240,6 @@ Or simply run:
 ```bash
 docker stop test-web && docker rm test-web 
 ```
-
-## Running this Proxy on a Synology NAS
-
-Please checkout this [howto](https://github.com/evertramos/docker-compose-letsencrypt-nginx-proxy-companion/blob/master/docs/HOWTO-Synlogy.md).
-
 
 ## Production Environment using Web Proxy and Wordpress
 
